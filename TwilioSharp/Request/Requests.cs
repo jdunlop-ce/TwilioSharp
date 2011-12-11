@@ -3,6 +3,7 @@ namespace TwilioSharp.Request
 {
     public class RequestBase
     {
+        public string NewTopTestThingMaster { get; set; }
         public string CallSid { get; set; }
         public string AccountSid { get; set; }
         public string From { get; set; }
