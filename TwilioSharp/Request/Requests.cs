@@ -18,7 +18,8 @@ namespace TwilioSharp.Request
         public string ToCity { get; set; }
         public string ToState { get; set; }
         public string ToZip { get; set; }
-        public string ToCountry { get; set; }        
+        public string ToCountry { get; set; }  
+        public string NewTestThing { get; set; }
     }
 
     public class TextRequest : RequestBase
