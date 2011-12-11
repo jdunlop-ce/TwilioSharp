@@ -27,7 +27,7 @@ namespace TwilioSharp.Request
         public string SmsSid { get; set; }
         public string SmsStatus { get; set; }
         public string Body { get; set; }
-        public string NewTestThing { get; set; }
+        public string NewTestThing2 { get; set; }
     }
 
     public class CallRequest : RequestBase
